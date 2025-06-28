@@ -1,0 +1,22 @@
+:root {
+  --pixel: 16px;
+}
+
+body {
+  margin: 0;
+  background: url('./assets/default.jpg') repeat;
+  font-family: 'Press Start 2P', monospace;
+  image-rendering: pixelated;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#root {
+  width: calc(20 * var(--pixel));
+}
+
+button, input, img {
+  image-rendering: pixelated;
+}
